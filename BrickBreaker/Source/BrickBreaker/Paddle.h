@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "Runtime/CoreUObject/Public/UObject/ConstructorHelpers.h"
 #include "Paddle.generated.h"
 
 UCLASS()
@@ -33,8 +34,7 @@ public:
 
 
     UPROPERTY(EditAnywhere)
-    USceneComponent* PaddleComponent;
-
+    UStaticMeshComponent* PaddleComponent;
 
     //Input variables
     FVector CurrentVelocity;
