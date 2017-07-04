@@ -21,26 +21,12 @@ APaddle::APaddle()
     PaddleComponent->SetupAttachment(RootComponent);
 
     RootComponent->SetMobility(EComponentMobility::Movable);
-    //PaddleComponent->SetMobility(EComponentMobility::Movable);
-
-    //PaddleStaticMeshComponent->SetupAttachment(PaddleComponent);
-
-    //static ConstructorHelpers::FObjectFinder<UStaticMesh> staticMesh(TEXT("StaticMesh'/Game/Meshes/SM_Paddle.SM_Paddle'"));
-    //if (staticMesh.Succeeded())
-    //{
-    //    PaddleStaticMeshComponent->SetStaticMesh(staticMesh.Object);
-    //    PaddleStaticMeshComponent->SetRelativeLocation(FVector(0.0f, 0.0f, 0.0f));
-    //}
-    //else {
-    //    UE_LOG(LogTemp, Warning, TEXT("failed"));
-    //}
 }
 
 // Called when the game starts or when spawned
 void APaddle::BeginPlay()
 {
     Super::BeginPlay();
-    
 }
 
 // Called every frame
