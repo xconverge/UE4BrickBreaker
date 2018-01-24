@@ -7,14 +7,14 @@
 #include "BrickBreakerGameModeBase.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class BRICKBREAKER_API ABrickBreakerGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
-	
-	
-	
+
+
+
+
 };

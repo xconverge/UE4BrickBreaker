@@ -43,10 +43,10 @@ void ABall::Tick(float DeltaTime)
 
      float   angle = FMath::Acos(FVector::DotProduct(inputVector, FVector::UpVector));
 
-     //if (angle < snapAngle / 2.0f) {                        // Cannot do cross product 
+     //if (angle < snapAngle / 2.0f) {                        // Cannot do cross product
      //UE_LOG(LogTemp, Warning, TEXT("aaa %f"),angle);
      //    return FVector::UpVector * inputVector.Size();     //   with angles 0 & 180
-     //}                                          
+     //}
      //if (angle > 180.0f - snapAngle / 2.0f) {
      //UE_LOG(LogTemp, Warning, TEXT("bbb %f "),angle);
      //    return FVector::UpVector * -inputVector.Size();
